@@ -1,9 +1,8 @@
 package com.sd.tree_test.dto
 
 data class NodeItem(
-    val id: Int,
+    val id: Long = 0L,
     val name: String = "",
-    val children: MutableList<Int> = mutableListOf(),
-    val idParent: Int = 0,
-    val parents: MutableList<Int> = mutableListOf()
+    val idParent: Long = 0L,
+    val parents: MutableList<Long> = mutableListOf(0L)
 )

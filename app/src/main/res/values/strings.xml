@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Tree_test</string>
+    <string name="you_cant_do_it">Не получится. Это root-элемент</string>
+    <string name="parent">Родитель</string>
+    <string name="children">Дети</string>
+    <string name="addChild">addChild</string>
+    <string name="go_to_children">Перейти к детям</string>
+    <string name="delete">Удалить</string>
+    <string name="go_to_parent">Перейти к родителю</string>
 </resources>

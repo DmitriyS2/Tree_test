@@ -1,13 +1,8 @@
 package com.sd.tree_test.activity
 
 import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import com.sd.tree_test.databinding.ActivityMainBinding
+import com.sd.tree_test.R
+import dagger.hilt.android.AndroidEntryPoint
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        val binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-    }
-}
+@AndroidEntryPoint
+class MainActivity : AppCompatActivity(R.layout.activity_main)
